@@ -20,6 +20,7 @@ class ThirdViewController: UIViewController {
     
 }
 
+// MARK: -  只需遵守PresentControllerType协议，设置contentSize就行了
 extension ThirdViewController: PresentControllerType {
     
     var contentSize: CGSize {
